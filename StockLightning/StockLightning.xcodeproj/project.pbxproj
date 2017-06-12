@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		602F2D861EEE358400E63A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F2D851EEE358400E63A3E /* AppDelegate.swift */; };
-		602F2D881EEE358400E63A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F2D871EEE358400E63A3E /* ViewController.swift */; };
 		602F2D8B1EEE358400E63A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602F2D891EEE358400E63A3E /* Main.storyboard */; };
 		602F2D8D1EEE358400E63A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602F2D8C1EEE358400E63A3E /* Assets.xcassets */; };
 		602F2D901EEE358400E63A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602F2D8E1EEE358400E63A3E /* LaunchScreen.storyboard */; };
+		602F2D981EEE390E00E63A3E /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F2D971EEE390E00E63A3E /* MainTableViewController.swift */; };
+		602F2D9A1EEE397600E63A3E /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F2D991EEE397600E63A3E /* MainTableViewCell.swift */; };
+		602F2D9E1EEE3B3900E63A3E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F2D9D1EEE3B3900E63A3E /* SearchViewController.swift */; };
+		BCAE594E086EA4756BD59A77 /* Pods_StockLightning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49694F222371EA8F115966C /* Pods_StockLightning.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41F01511BC721BF632B095DA /* Pods-StockLightning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockLightning.release.xcconfig"; path = "Pods/Target Support Files/Pods-StockLightning/Pods-StockLightning.release.xcconfig"; sourceTree = "<group>"; };
 		602F2D821EEE358400E63A3E /* StockLightning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockLightning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602F2D851EEE358400E63A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		602F2D871EEE358400E63A3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		602F2D8A1EEE358400E63A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		602F2D8C1EEE358400E63A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		602F2D8F1EEE358400E63A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		602F2D911EEE358400E63A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602F2D971EEE390E00E63A3E /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		602F2D991EEE397600E63A3E /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		602F2D9D1EEE3B3900E63A3E /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		87B583470E886F845707A05A /* Pods-StockLightning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockLightning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StockLightning/Pods-StockLightning.debug.xcconfig"; sourceTree = "<group>"; };
+		F49694F222371EA8F115966C /* Pods_StockLightning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockLightning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAE594E086EA4756BD59A77 /* Pods_StockLightning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32E6B3D8C820336D02BFB704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49694F222371EA8F115966C /* Pods_StockLightning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		602F2D791EEE358400E63A3E = {
 			isa = PBXGroup;
 			children = (
 				602F2D841EEE358400E63A3E /* StockLightning */,
 				602F2D831EEE358400E63A3E /* Products */,
+				DBC3B0314CF3F0B6FFACC233 /* Pods */,
+				32E6B3D8C820336D02BFB704 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,49 @@
 		602F2D841EEE358400E63A3E /* StockLightning */ = {
 			isa = PBXGroup;
 			children = (
-				602F2D851EEE358400E63A3E /* AppDelegate.swift */,
-				602F2D871EEE358400E63A3E /* ViewController.swift */,
+				602F2D9F1EEE3B4100E63A3E /* Search Page */,
+				602F2D9C1EEE399500E63A3E /* General */,
+				602F2D9B1EEE397C00E63A3E /* Main Page */,
+			);
+			path = StockLightning;
+			sourceTree = "<group>";
+		};
+		602F2D9B1EEE397C00E63A3E /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
 				602F2D891EEE358400E63A3E /* Main.storyboard */,
+				602F2D991EEE397600E63A3E /* MainTableViewCell.swift */,
+				602F2D971EEE390E00E63A3E /* MainTableViewController.swift */,
+			);
+			name = "Main Page";
+			sourceTree = "<group>";
+		};
+		602F2D9C1EEE399500E63A3E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				602F2D851EEE358400E63A3E /* AppDelegate.swift */,
 				602F2D8C1EEE358400E63A3E /* Assets.xcassets */,
 				602F2D8E1EEE358400E63A3E /* LaunchScreen.storyboard */,
 				602F2D911EEE358400E63A3E /* Info.plist */,
 			);
-			path = StockLightning;
+			name = General;
+			sourceTree = "<group>";
+		};
+		602F2D9F1EEE3B4100E63A3E /* Search Page */ = {
+			isa = PBXGroup;
+			children = (
+				602F2D9D1EEE3B3900E63A3E /* SearchViewController.swift */,
+			);
+			name = "Search Page";
+			sourceTree = "<group>";
+		};
+		DBC3B0314CF3F0B6FFACC233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87B583470E886F845707A05A /* Pods-StockLightning.debug.xcconfig */,
+				41F01511BC721BF632B095DA /* Pods-StockLightning.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 602F2D941EEE358400E63A3E /* Build configuration list for PBXNativeTarget "StockLightning" */;
 			buildPhases = (
+				119C49FFD63CEEAC62EA6A6A /* [CP] Check Pods Manifest.lock */,
 				602F2D7E1EEE358400E63A3E /* Sources */,
 				602F2D7F1EEE358400E63A3E /* Frameworks */,
 				602F2D801EEE358400E63A3E /* Resources */,
+				555FC52802870F98ADDFB4FE /* [CP] Embed Pods Frameworks */,
+				BC8C24192F594160BF7D5908 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +189,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		119C49FFD63CEEAC62EA6A6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		555FC52802870F98ADDFB4FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StockLightning/Pods-StockLightning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8C24192F594160BF7D5908 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StockLightning/Pods-StockLightning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		602F2D7E1EEE358400E63A3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				602F2D881EEE358400E63A3E /* ViewController.swift in Sources */,
+				602F2D981EEE390E00E63A3E /* MainTableViewController.swift in Sources */,
+				602F2D9A1EEE397600E63A3E /* MainTableViewCell.swift in Sources */,
+				602F2D9E1EEE3B3900E63A3E /* SearchViewController.swift in Sources */,
 				602F2D861EEE358400E63A3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +368,7 @@
 		};
 		602F2D951EEE358400E63A3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B583470E886F845707A05A /* Pods-StockLightning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9RRT4Z72LX;
@@ -274,6 +382,7 @@
 		};
 		602F2D961EEE358400E63A3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F01511BC721BF632B095DA /* Pods-StockLightning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9RRT4Z72LX;

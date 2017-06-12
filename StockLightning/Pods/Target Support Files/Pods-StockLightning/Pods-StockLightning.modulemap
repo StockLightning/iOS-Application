@@ -1,0 +1,6 @@
+framework module Pods_StockLightning {
+  umbrella header "Pods-StockLightning-umbrella.h"
+
+  export *
+  module * { export * }
+}
